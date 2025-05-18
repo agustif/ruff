@@ -41,6 +41,11 @@ wild = { workspace = true }
 [dev-dependencies]
 ruff_db = { workspace = true, features = ["testing"] }
 ruff_python_trivia = { workspace = true }
+assert_fs = { workspace = true }
+itertools = { workspace = true }
+ruff_cache = { workspace = true }
+serde = { workspace = true, features = ["derive"] }
+serde_json = { workspace = true }
 
 insta = { workspace = true, features = ["filters"] }
 insta-cmd = { workspace = true }
